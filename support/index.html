@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--
+    Soccer Tactical Coach — support page.
+
+    Served at https://sportstablesoccercoach.com/support
+
+    Self-contained on purpose: no fonts, scripts, stylesheets, analytics or
+    images are fetched from anywhere, so this page can be dropped onto any host
+    as a single file and cannot break because something else moved. A page that
+    phones out to a font CDN in order to say nothing is tracked would be making
+    a liar of the app beside it.
+
+    Cross-links are relative (../privacy/), so this pair works unchanged
+    wherever it is mounted: at a domain root, inside a subdirectory such as a
+    GitHub Pages project site, or on a subdomain. Nothing here assumes an
+    address.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Soccer Tactical Coach</title>
+<meta name="description" content="Support for Soccer Tactical Coach, a football tactics board for iPhone and iPad.">
+<style>
+:root {
+    color-scheme: light dark;
+    --slate: #8cb3d6;
+    --bg: #f7f8fa;
+    --panel: #ffffff;
+    --ink: #16181d;
+    --ink-soft: #5b6270;
+    --rule: #dfe3ea;
+    --accent: #1f5c93;
+    --head-ink: #10202f;
+    --head-sub: #24384a;
+}
+@media (prefers-color-scheme: dark) {
+    :root {
+        --slate: #1c2b40;
+        --bg: #0f1216;
+        --panel: #171b21;
+        --ink: #eef1f5;
+        --ink-soft: #a2abb9;
+        --rule: #2a313b;
+        --accent: #8cb3d6;
+        --head-ink: #eef1f5;
+        --head-sub: #b9c6d6;
+    }
+}
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+}
+header {
+    background: var(--slate);
+    padding: 48px 16px 40px;
+    border-bottom: 1px solid var(--rule);
+}
+header .inner { max-width: 44rem; margin: 0 auto; }
+header h1 {
+    margin: 0; font-size: 1.9rem; line-height: 1.2;
+    letter-spacing: -0.02em; color: var(--head-ink);
+}
+header p { margin: 8px 0 0; font-size: 1.02rem; color: var(--head-sub); }
+main { max-width: 44rem; margin: 0 auto; padding: 40px 16px 64px; }
+h2 {
+    margin: 40px 0 12px; font-size: 1.25rem; letter-spacing: -0.01em;
+    padding-bottom: 6px; border-bottom: 1px solid var(--rule);
+}
+p { margin: 0 0 16px; }
+a { color: var(--accent); }
+.lede {
+    font-size: 1.12rem; font-weight: 600; padding: 16px 18px;
+    background: var(--panel); border: 1px solid var(--rule); border-radius: 12px;
+}
+.contact {
+    background: var(--panel); border: 1px solid var(--rule);
+    border-radius: 12px; padding: 18px; margin-bottom: 8px;
+}
+.contact p { margin: 0; }
+.contact a { font-weight: 600; word-break: break-word; }
+footer {
+    max-width: 44rem; margin: 0 auto; padding: 24px 16px 48px;
+    border-top: 1px solid var(--rule); color: var(--ink-soft); font-size: 0.92rem;
+}
+footer a { color: var(--ink-soft); }
+</style>
+</head>
+<body>
+
+<header>
+    <div class="inner">
+        <h1>Soccer Tactical Coach</h1>
+        <p>A football tactics board for iPhone and iPad</p>
+    </div>
+</header>
+
+<main>
+
+    <p class="lede">
+        Something not working, or something you want it to do? Email me and I will reply.
+    </p>
+
+    <div class="contact">
+        <p>
+            <strong>Support:</strong>
+            <a href="mailto:migflick@gmail.com">migflick@gmail.com</a>
+        </p>
+    </div>
+
+    <h2>Common questions</h2>
+
+    <p><strong>Do I need an account?</strong><br>
+    No. The app opens straight onto the board. There is nothing to sign up for.</p>
+
+    <p><strong>Does it work without a signal?</strong><br>
+    Yes, always. The app does not connect to the internet at all, so it behaves
+    identically on a touchline with no reception.</p>
+
+    <p><strong>Where are my boards stored?</strong><br>
+    On your device, and nowhere else. They are not backed up to any server,
+    because there is no server. Deleting the app deletes them.</p>
+
+    <p><strong>Why are my players called &ldquo;Unnamed&rdquo;?</strong><br>
+    Both squads start as numbers and positions only, so nothing is invented for
+    you. Open <em>Edit Squads</em> and put your own players in.</p>
+
+    <p><strong>Can I undo a mistake?</strong><br>
+    Yes. Undo and redo cover every action on the board, and the squad screen has
+    its own undo.</p>
+
+    <h2>Reporting a problem</h2>
+
+    <p>
+        If something is wrong, the two things that help most are what you were
+        doing when it happened, and which device you were on. A screenshot is
+        worth more than either.
+    </p>
+
+    <h2>Privacy</h2>
+
+    <p>
+        The app collects no data whatsoever. The full policy is on the
+        <a href="../privacy/">privacy page</a>.
+    </p>
+
+</main>
+
+<footer>
+    <p>Soccer Tactical Coach &middot; <a href="../privacy/">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>
