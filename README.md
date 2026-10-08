@@ -90,3 +90,10 @@ That the app collects nothing, has no accounts, no analytics and **no network us
 true as it stands, and it is the strongest thing the policy says. Anything added later that reaches
 the internet — even a link out to a shop — means the wording has to be qualified first. Do not add
 the feature and fix the page afterwards.
+
+## What the scoreboard's pages claim
+
+That the app collects nothing, has no accounts, no analytics and no network use. Unlike the
+tactics board it **exports files** (CSV and a PDF result sheet) and prints, so its policy says
+those leave the device only when the user sends them, to wherever they choose. The wording is
+mirrored in `PRIVACY.md` in the scoreboard's repository; change both together.
